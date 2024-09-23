@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(void) {
 double number1, number2;  
-  printf("Type the 1st number: ");
+  printf("Enter the 1st number: ");
       scanf("%lf",&number1);
-  printf("Type the 2nd number: ");
+  printf("Enter the 2nd number: ");
       scanf("%lf",&number2);
    
   printf("\nSum = %.2lf", (number1 + number2));
